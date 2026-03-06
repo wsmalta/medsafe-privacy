@@ -16,36 +16,37 @@
     <p>Esta política de privacidade rege o uso do aplicativo <strong>MedSafe</strong>, criado para auxiliar no gerenciamento de medicamentos.</p>
 
     <h2>1. Coleta e Armazenamento de Dados</h2>
-    <p>O MedSafe prioriza a sua privacidade. Todos os dados inseridos (nomes de medicamentos, horários, histórico de doses e fotos) são armazenados <strong>exclusivamente de forma local</strong> no seu dispositivo através do <em>AsyncStorage</em>.</p>
-    <p>Não possuímos servidores de back-end e não coletamos, transmitimos ou vendemos suas informações pessoais para terceiros.</p>
+    <p>O MedSafe prioriza a sua privacidade. Para oferecer funcionalidades de backup e sincronização, utilizamos o <strong>Google Firebase</strong> para armazenar de forma segura:</p>
+    <ul>
+        <li>Nomes de medicamentos e horários de doses;</li>
+        <li>Histórico de tomadas;</li>
+        <li>Informações de perfil e identificadores de conta para sincronização entre dispositivos.</li>
+    </ul>
+    <p>Os dados são transmitidos de forma criptografada e não são compartilhados ou vendidos a terceiros.</p>
 
     <h2>2. Permissões de Dispositivo</h2>
-    <p>Para o funcionamento das funções críticas de saúde, o app solicita:</p>
+    <p>Para o funcionamento das funções críticas, o app solicita:</p>
     <ul>
         <li><strong>Notificações:</strong> Necessário para emitir alertas nos horários configurados.</li>
-        <li><strong>Áudio (RECORD_AUDIO/MODIFY_SETTINGS):</strong> Utilizado para o sistema de alarmes sonoros e síntese de voz (TTS), garantindo que os avisos sejam ouvidos claramente.</li>
-        <li><strong>Câmera e Armazenamento:</strong> Utilizado apenas se o usuário desejar anexar uma foto ao registro do medicamento.</li>
+        <li><strong>Áudio (RECORD_AUDIO/MODIFY_SETTINGS):</strong> Utilizado para o sistema de alarmes sonoros e síntese de voz (TTS).</li>
+        <li><strong>Câmera:</strong> Utilizado apenas se o usuário desejar anexar uma foto ao medicamento.</li>
     </ul>
 
-    <h2>3. Segurança</h2>
-    <p>Como os dados não saem do seu telefone, a segurança das informações depende da segurança do seu próprio aparelho. Recomendamos o uso de senhas ou biometria no dispositivo.</p>
+    <h2>3. Modelo Freemium e Assinaturas</h2>
+    <p>O MedSafe oferece funcionalidades premium via assinaturas processadas pelo sistema oficial do <strong>Google Play</strong>. Não temos acesso aos seus dados de pagamento ou cartão de crédito.</p>
 
-    <h2>4. Crianças</h2>
-    <p>Este aplicativo não solicita dados de identificação pessoal e não é direcionado a menores de 13 anos sem supervisão dos responsáveis.</p>
+    <h2 id="exclusao">4. Solicitação de Exclusão de Dados</h2>
+    <p>Em conformidade com as políticas da Google Play, você pode solicitar a exclusão de seus dados:</p>
+    <ul>
+        <li><strong>Pelo Aplicativo:</strong> No menu 'Configurações', utilize a opção 'Excluir Minha Conta/Dados'. Isso removerá seus dados do Firebase e do armazenamento local imediatamente.</li>
+        <li><strong>Por E-mail:</strong> Envie uma solicitação para <strong>arcanjo.walter@gmail.com</strong> informando o e-mail de cadastro.</li>
+    </ul>
 
     <h2>5. Contato</h2>
-    <p>Se você tiver alguma dúvida sobre esta política, entre em contato através do e-mail: <strong>arcanjo.walter@gmail.com</strong></p>
+    <p>Se você tiver alguma dúvida, entre em contato: <strong>arcanjo.walter@gmail.com</strong></p>
 
     <div class="footer">
-        <p>Última atualização: Março de 2024</p>
+        <p>Última atualização: Março de 2026</p>
     </div>
-    <h2 id="exclusao">7. Solicitação de Exclusão de Dados</h2>
-<p>O <strong>MedSafe</strong> respeita o seu direito de controlar seus dados. Você pode solicitar a exclusão de suas informações e conta das seguintes formas:</p>
-<ul>
-    <li><strong>Pelo Aplicativo:</strong> Acesse o menu 'Configurações' e selecione a opção 'Excluir Minha Conta/Dados'. A exclusão dos dados do Firebase e do armazenamento local é imediata.</li>
-    <li><strong>Por E-mail:</strong> Envie uma solicitação para <strong>arcanjo.walter@gmail.com</strong> informando o e-mail utilizado no cadastro.</li>
-</ul>
-<p><strong>O que será excluído:</strong> Todos os registros de medicamentos, horários de doses, histórico de uso e informações de perfil vinculadas ao seu ID de usuário no Firebase.</p>
-<p><strong>O que será mantido:</strong> Registros financeiros de assinaturas (exigidos por lei e pelo Google Play para fins fiscais) e logs técnicos anônimos para prevenção de fraudes.</p>
 </body>
 </html>
